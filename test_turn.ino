@@ -54,10 +54,38 @@ void loop()
 	 
    right();
    Reset();
+   if (rDistance<5){
+	   return;
+   }
+   right();
+   Reset();
+   if (rDistance<5){
+	   return;
+   }
+   right();
+   Reset();
+   if (rDistance<5){
+	   return;
+   }
 	if (fDistance<20){
 		right();
+   Reset();
+   if (rDistance<5){
+	   return;
+   }
+   right();
+   Reset();
+   if (rDistance<5){
+	   return;
+   }
+   right();
+   Reset();
+   if (rDistance<5){
+	   return;
+   }
 	}else{
 		straight();
+		Reset();
 	}
    }
    delay(1000);

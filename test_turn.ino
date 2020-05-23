@@ -97,24 +97,10 @@ void loop()
   Reset();
 }
 
-if(fDistance > 20 && rDistance > 20) // Front open right open, turn right
-{
-  right();
-  Reset();
-  straight();
-  delay(1000);
-  Reset();
-}
-
 if (fDistance > 12)
 {
   straight();
   Reset();
-}
-
-if (rDistance < 3)
-{
-  slight_left();
 }
 
 }

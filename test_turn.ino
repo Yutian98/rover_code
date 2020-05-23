@@ -54,32 +54,38 @@ void loop()
 	 
    right();
    Reset();
+   rDistance = rSensor.convert_cm(rSensor.ping_median(5));
    if (rDistance<5){
 	   return;
    }
    right();
    Reset();
+   rDistance = rSensor.convert_cm(rSensor.ping_median(5));
    if (rDistance<5){
 	   return;
    }
    right();
    Reset();
+   rDistance = rSensor.convert_cm(rSensor.ping_median(5));
    if (rDistance<5){
 	   return;
    }
 	if (fDistance<20){
 		right();
    Reset();
+   rDistance = rSensor.convert_cm(rSensor.ping_median(5));
    if (rDistance<5){
 	   return;
    }
    right();
    Reset();
+   rDistance = rSensor.convert_cm(rSensor.ping_median(5));
    if (rDistance<5){
 	   return;
    }
    right();
    Reset();
+   rDistance = rSensor.convert_cm(rSensor.ping_median(5));
    if (rDistance<5){
 	   return;
    }
